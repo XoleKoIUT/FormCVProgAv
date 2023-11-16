@@ -1,0 +1,12 @@
+footer{
+    bottom: 0;
+    width: 100%;
+    position : absolute;
+}
+body{
+    position: relative;
+}
+
+html, body{
+    height: 100%;
+}
