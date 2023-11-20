@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 innerLink.classList.remove("active");
             });
             this.classList.add("active");
+            debugger;
         });
     });
 });

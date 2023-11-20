@@ -1,7 +1,6 @@
 footer{
     bottom: 0;
     width: 100%;
-    position : absolute;
 }
 body{
     position: relative;
@@ -9,4 +8,19 @@ body{
 
 html, body{
     height: 100%;
+}
+
+
+.clickable-list {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #3498db; /* Couleur bleue */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-decoration: underline;
+}
+
+.clickable-list:hover {
+    background-color: #2980b9; /* Couleur bleue légèrement plus foncée au survol */
 }
