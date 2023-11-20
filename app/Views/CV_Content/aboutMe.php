@@ -9,6 +9,10 @@
                 notamment lors de mon stage chez Enedis où j'ai pu développer une application web en PhP, Javascript, SQL etc...
                 Je suis une personne dynamique, motivée et adaptable.
                 J'ai un bon sens du relationnel et je suis capable de travailler en équipe.</p>
+
+            Vos objectifs professionnels. Que souhaitez-vous faire après votre diplôme ?
+            Vos qualités personnelles. Qu'est-ce qui vous rend un bon candidat pour le poste ?
+            Vos réalisations non académiques. Si vous avez des compétences ou des expériences qui ne sont pas directement liées à votre formation, n'hésitez pas à les mentionner.
         </div>
         <div class="col-md-6 text-center">
             <img src="/assets/images/Photo_CV.png" alt="Photo_CV" width="200" height="200" class="img-fluid">
