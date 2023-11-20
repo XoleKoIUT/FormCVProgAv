@@ -4,5 +4,4 @@
     </div>
 </div>
 
-<!-- <button class="btn-envoyer" href="mail.php">Envoyer un mail</button>
-<script src=/assets/js/send-mail.js"></script> -->
+<button class="btn-envoyer" href="mail.php">Envoyer un mail</button>
