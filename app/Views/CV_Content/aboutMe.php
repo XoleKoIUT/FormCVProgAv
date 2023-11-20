@@ -1,7 +1,14 @@
 <div class="container-fluid">
     <div class="row align-items-center justify-content-center">
-        <div class="col-md-6 text-center">
-            <p>Situé au Havre, actuellement étudiant en BUT Informatique dans l'IUT du Havre. Je souhaite mettre à disposition mes connaissances dans le domaine Informatique, que ce soit développer ou encore assembler des Ordinateurs. En terme de développement j'ai actuellement un niveau Junior.</p>
+        <div class="col-md-6 text-justify pt-4">
+            <p> Etudiant en BUT Informatique au Havre, je suis passionné par
+                le développement informatique et j'ai un fort intérêt pour les nouvelles technologies.
+                Je maîtrise les langages de programmation Java, PhP, Html, JQuery, Javascript...
+                J'ai également une bonne connaissance des bases de données et des systèmes d'exploitation.
+                Au cours de ma formation, j'ai réalisé plusieurs projets concrets,
+                notamment lors de mon stage chez Enedis où j'ai pu développer une application web en PhP, Javascript, SQL etc...
+                Je suis une personne dynamique, motivée et adaptable.
+                J'ai un bon sens du relationnel et je suis capable de travailler en équipe.</p>
         </div>
         <div class="col-md-6 text-center">
             <img src="/assets/images/Photo_CV.png" alt="Photo_CV" width="200" height="200" class="img-fluid">
