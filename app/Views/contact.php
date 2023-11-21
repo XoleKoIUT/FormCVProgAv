@@ -5,7 +5,7 @@
             <p> Si vous avez des questions, n'hésitez pas à me contacter. </p>
             <p> Je vous répondrai dans les plus brefs délais. </p>
         </div>
-        <div class="col-md-9 bg-secondary py-3 rounded">
+        <div class="col-md-9 background-light-gray py-3 rounded border">
             <h4>Nouveau Message</h4>
             <?= form_open('\MailController\traitement', 'class="needs-validation"'); ?>
                 <div class="form-group">
@@ -22,11 +22,14 @@
 
             <div class="form-group">
                 <label for="prenom">Message</label>
-                <?= form_input('message', set_value('message'), 'class="form-control" required'); ?>
+                <?= form_textarea('message', set_value('message'), 'class="form-control" required'); ?>
                 <?= validation_show_error('message') ?>
             </div>
 
+            <div class="text-center">
                 <?= form_submit('submit', 'Envoyer', 'class="btn btn-primary"'); ?>
+            </div>
+
             <?= form_close(); ?>
         </div>
     </div>

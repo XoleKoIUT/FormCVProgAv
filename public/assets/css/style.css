@@ -23,3 +23,7 @@ html, body{
 .clickable-list:hover {
     background-color: #2980b9; /* Couleur bleue légèrement plus foncée au survol */
 }
+
+.background-light-gray{
+    background-color: #eee;
+}
