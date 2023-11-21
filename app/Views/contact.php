@@ -1,39 +1,33 @@
-<h2>Formulaire CodeIgniter 4</h2>
+<div class="container pt-5">
+    <div class="row">
+        <div class="col-md-3">
+            <h3> Contactez-moi </h3>
+            <p> Si vous avez des questions, n'hésitez pas à me contacter. </p>
+            <p> Je vous répondrai dans les plus brefs délais. </p>
+        </div>
+        <div class="col-md-9 bg-secondary py-3 rounded">
+            <h4>Nouveau Message</h4>
+            <?= form_open('\MailController\traitement', 'class="needs-validation"'); ?>
+                <div class="form-group">
+                    <label for="email">Destinataire</label>
+                    <?= form_input('email', set_value('email'), 'class="form-control" required'); ?>
+                    <?= validation_show_error('email') ?>
+                </div>
 
-<?= form_open('\MailController\traitement'); ?>
-<label for="identifiant">Nom</label>
-<?= form_input('name', set_value('name'), 'required'); ?>
-<?= validation_show_error('identifiant') ?>
+            <div class="form-group">
+                <label for="nom">Sujet</label>
+                <?= form_input('subject', set_value('subject'), 'class="form-control" required'); ?>
+                <?= validation_show_error('subject') ?>
+            </div>
 
-<br>
-<label for="email">Email</label>
-<?= form_input('email', set_value('email'), 'required'); ?>
-<?= validation_show_error('email') ?>
+            <div class="form-group">
+                <label for="prenom">Message</label>
+                <?= form_input('message', set_value('message'), 'class="form-control" required'); ?>
+                <?= validation_show_error('message') ?>
+            </div>
 
-<br>
-
-<?= form_submit('submit', 'Envoyer'); ?>
-<?= form_close(); ?>
-
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Exemple de Formulaire CodeIgniter 4</title>
-</head>
-<body>
-<h2>Formulaire CodeIgniter 4</h2>
-<?php echo form_open('MailController/traitement'); ?>
-<label for="identifiant">Nom Utilisateur</label>
-<?php echo form_input('identifiant', set_value('identifiant'), 'required'); ?>
-<?= validation_show_error('identifiant') ?>
-<br>
-<label for="email">Adresse e-mail</label>
-<?php echo form_input('email', set_value('email'), 'required'); ?>
-<?= validation_show_error('email') ?>
-<br>
-<?php echo form_submit('submit', 'Envoyer'); ?>
-<?php echo form_close(); ?>
-</body>
-</html>
+                <?= form_submit('submit', 'Envoyer', 'class="btn btn-primary"'); ?>
+            <?= form_close(); ?>
+        </div>
+    </div>
+</div>

@@ -5,11 +5,6 @@ use CodeIgniter\Controller;
 
 class MailController extends Controller
 {
-    public function __construct()
-    {
-        helper(['form']);
-    }
-
     public function traitement()
     {
         $validation = \Config\Services::validation();

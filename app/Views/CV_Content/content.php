@@ -3,5 +3,3 @@
         <img src="/assets/images/CV.png" alt="CV" style="width: 100%;" />
     </div>
 </div>
-
-<button class="btn-envoyer" href="mail.php">Envoyer un mail</button>

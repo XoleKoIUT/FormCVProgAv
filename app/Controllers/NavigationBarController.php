@@ -56,6 +56,9 @@ class NavigationBarController extends BaseController
 
     public function Contact()
     {
+        echo view ('commun/header');
+        echo view ('commun/navBar');
         echo view('contact');
+        echo view('commun/footer');
     }
 }
