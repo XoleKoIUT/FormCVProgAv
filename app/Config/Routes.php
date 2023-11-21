@@ -18,3 +18,4 @@ $routes->get('Contact', 'NavigationBarController::Contact');
 
 //ContactForm
 $routes->post('MailController/traitement', 'MailController::traitement');
+$routes->get('MailController/sendMail/(:any)', 'MailController::sendMail/$1');

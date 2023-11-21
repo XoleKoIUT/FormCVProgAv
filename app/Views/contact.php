@@ -7,7 +7,7 @@
         </div>
         <div class="col-md-9 background-light-gray py-3 rounded border">
             <h4>Nouveau Message</h4>
-            <?= form_open('\MailController\traitement', 'class="needs-validation"'); ?>
+            <?= form_open('MailController/traitement', 'class="needs-validation"'); ?>
                 <div class="form-group">
                     <label for="email">Destinataire</label>
                     <?= form_input('email', set_value('email'), 'class="form-control" required'); ?>

@@ -9,32 +9,26 @@ class MailController extends Controller
     {
         $validation = \Config\Services::validation();
         $donnees = [
-            'identifiant' => 'required|min_length[3]|max_length[20]',
             'email' => 'required|valid_email',
+            'subject' => 'required|min_length[3]|max_length[50]',
+            'message' => 'required|min_length[3]|max_length[200]'
         ];
 
         if ($this->validate($donnees)) {
-            //$this->sendMail($donnees);
-            echo('Formulaire soumis avec succès !');
+            $donnees = $this->request->getPost();
+            $this->sendMail($donnees);
         } else {
             echo view('contact');
         }
     }
 
-    public function sendMail()
+    public function sendMail($donnees)
     {
-        $to = 'xolekoiut76@gmail.com';
-        $subject = 'Est-ce que c\'est fonctionnel ?';
-        $message = 'Si c\'est fonctionnel, je vais être content. Sinon eh bien tu vas être un peu spam.';
-
         $mailer = \Config\Services::email();
 
-        $mailer->setFrom('xolekiut76@gmail.com');
-        $mailer->setReplyTo('xolekoiut76@gmail.com');
-
-        $mailer->setSubject($subject);
-        $mailer->setMessage($message);
-        $mailer->setTo($to);
+        $mailer->setTo($donnees['email']);
+        $mailer->setSubject($donnees['subject']);
+        $mailer->setMessage($donnees['message']);
 
         if ($mailer->send()) {
             echo 'Le mail a été envoyé avec succès.';
