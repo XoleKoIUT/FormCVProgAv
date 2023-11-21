@@ -26,7 +26,7 @@
                 <a class="nav-link" href="<?= url_to("Project") ?>">Projet Informatique</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?= url_to("AboutMe") ?>">Me Contacter</a>
+                <a class="nav-link" href="<?= url_to("Contact") ?>">Me Contacter</a>
             </li>
         </ul>
     </div>

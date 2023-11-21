@@ -53,4 +53,9 @@ class NavigationBarController extends BaseController
         echo view('CV_Content/project');
         echo view('commun/footer');
     }
+
+    public function Contact()
+    {
+        echo view('contact');
+    }
 }

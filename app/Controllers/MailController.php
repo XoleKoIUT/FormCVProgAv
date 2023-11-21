@@ -1,9 +1,31 @@
 <?php
 
 namespace App\Controllers;
+use CodeIgniter\Controller;
 
-class MailController extends BaseController
+class MailController extends Controller
 {
+    public function __construct()
+    {
+        helper(['form']);
+    }
+
+    public function traitement()
+    {
+        $validation = \Config\Services::validation();
+        $donnees = [
+            'identifiant' => 'required|min_length[3]|max_length[20]',
+            'email' => 'required|valid_email',
+        ];
+
+        if ($this->validate($donnees)) {
+            //$this->sendMail($donnees);
+            echo('Formulaire soumis avec succès !');
+        } else {
+            echo view('contact');
+        }
+    }
+
     public function sendMail()
     {
         $to = 'xolekoiut76@gmail.com';
