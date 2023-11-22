@@ -27,3 +27,16 @@ html, body{
 .background-light-gray{
     background-color: #eee;
 }
+
+#toast {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}

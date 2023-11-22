@@ -5,6 +5,14 @@ use CodeIgniter\Controller;
 
 class MailController extends Controller
 {
+    public function index()
+    {
+        echo view('commun/header');
+        echo view('commun/navBar');
+        echo view('CV_content/contact');
+        echo view('commun/footer');
+    }
+
     public function traitement()
     {
         $validation = \Config\Services::validation();
@@ -31,9 +39,10 @@ class MailController extends Controller
         $mailer->setMessage($donnees['message']);
 
         if ($mailer->send()) {
-            echo 'Le mail a été envoyé avec succès.';
+            $this->index();
+            echo '<script>afficherSucces();</script>';
         } else {
-            echo 'Le mail n\'a pas pu être envoyé.';
+            echo 'je te chie dans la bouche';
         }
     }
 }

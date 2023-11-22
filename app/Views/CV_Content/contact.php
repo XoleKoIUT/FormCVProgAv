@@ -7,7 +7,7 @@
         </div>
         <div class="col-md-9 background-light-gray py-3 rounded border">
             <h4>Nouveau Message</h4>
-            <?= form_open('MailController/traitement', 'class="needs-validation"'); ?>
+            <?= form_open('MailController/traitement', 'class="needs-validation" id="formContact"'); ?>
                 <div class="form-group">
                     <label for="email">Destinataire</label>
                     <?= form_input('email', set_value('email'), 'class="form-control" required'); ?>
@@ -27,10 +27,12 @@
             </div>
 
             <div class="text-center">
-                <?= form_submit('submit', 'Envoyer', 'class="btn btn-primary"'); ?>
+                <?= form_submit('submit', 'Envoyer', 'class="btn btn-primary" id="formContactEnvoie"'); ?>
             </div>
 
             <?= form_close(); ?>
         </div>
     </div>
 </div>
+
+<div id="toastContainer"></div>
