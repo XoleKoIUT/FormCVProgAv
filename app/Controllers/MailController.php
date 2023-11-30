@@ -37,12 +37,23 @@ class MailController extends Controller
         $mailer->setTo($donnees['email']);
         $mailer->setSubject($donnees['subject']);
         $mailer->setMessage($donnees['message']);
+        if($this->request->getFile('userfile')){
+            $attachment = $this->request->getFile('userfile');
+
+            if($attachment->isValid() && !$attachment->hasMoved()) {
+                $attachment->move('assets/attachment');
+                $mailer->attach('assets/attachment/' . $attachment->getName());
+            }else{
+                error_log('Erreur lors du déplacement du fichier attaché au mail.');
+            }
+
+        }
 
         if ($mailer->send()) {
             $this->index();
             echo '<script>afficherSucces();</script>';
-        } else {
-            echo 'je te chie dans la bouche';
+        }else {
+            error_log('Erreur d\'envoi d\'email: ' . $mailer->printDebugger(['headers']));
         }
     }
 }

@@ -4,12 +4,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Function to display the toast
 function showToast(message) {
-    // Create a new div element for the toast
+    //Création du Toast
     var toast = document.createElement("div");
 
-    // Set the content and styling for the toast
+    //Création du style du Toast
     toast.innerHTML = message;
     toast.style.position = "fixed";
     toast.style.bottom = "20px";
@@ -20,13 +19,11 @@ function showToast(message) {
     toast.style.padding = "15px";
     toast.style.borderRadius = "5px";
 
-    // Append the toast to the toastContainer
     var toastContainer = document.getElementById("toastContainer");
     toastContainer.appendChild(toast);
 
-    // Close the toast after 3 seconds
+    //Temps avant que le Toast ne disparaisse
     setTimeout(function(){
-        // Remove the toast from the toastContainer
         toastContainer.removeChild(toast);
     }, 3000);
 }
