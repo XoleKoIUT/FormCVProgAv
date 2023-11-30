@@ -15,13 +15,13 @@
                 </div>
 
             <div class="form-group">
-                <label for="nom">Sujet</label>
+                <label for="subject">Sujet</label>
                 <?= form_input('subject', set_value('subject'), 'class="form-control" required'); ?>
                 <?= validation_show_error('subject') ?>
             </div>
 
             <div class="form-group">
-                <label for="prenom">Message</label>
+                <label for="message">Message</label>
                 <?= form_textarea('message', set_value('message'), 'class="form-control" required'); ?>
                 <?= validation_show_error('message') ?>
             </div>
@@ -42,3 +42,7 @@
 </div>
 
 <div id="toastContainer"></div>
+
+<script>
+    CKEDITOR.replace('message');
+</script>
