@@ -17,13 +17,13 @@ Pour lancer le projet, vous devez suivre les étapes suivantes :
 
 **Github:** [[Mon profil GitHub]](https://github.com/XoleKoIUT/)
 
-**Description:**
+# Description 
 
 Etudiant en 3ème Année de BUT Informatique situé au Havre ainsi qu'Alternant chez Enedis à Rouen, je suis un développeur principalement Web s'intéressant à la création de nouvelles choses.
 
 Passionné par l'électronique ainsi que le sport j'aime réparer ainsi que me donner à fond dans ce que je fais.
 
-**Centres d'intérêts:**
+# Centres d'intérêts 
 
 * Technologie
   - Montage de A - Z d'un ordinateur
@@ -32,7 +32,7 @@ Passionné par l'électronique ainsi que le sport j'aime réparer ainsi que me d
   - Badminton
   - VTT
 
-**Parcours**
+# Parcours
 
 Lycée Ferdinand Buisson situé à Elbeuf ( 2018 - 2021 )
   - Diplômé d'un BAC Mention Bien STI2D Option SIN
@@ -40,7 +40,7 @@ Lycée Ferdinand Buisson situé à Elbeuf ( 2018 - 2021 )
 Institut Universitaire de Technologie situé au Havre ( 2021 - 2024 )
  - BUT Informatique ( actuellement en 3ème et dernière années )
 
-**Expérience professionnelle:**
+# Expérience professionnelle
 
 Enedis Rouen ( 2023 - 2024 )
  - Alternant depuis Septembre 2023 à Enedis en tant que développeur Web
@@ -49,14 +49,14 @@ Enedis Rouen ( 2023 - 2024 )
  - Développement d'outils WEB pour le bureau des études afin de faciliter leurs travails
      - Bilan Social NAT Enedis
 
-**Hard Skills:**
+# Hard Skills
 
 * Langages de programmation : HTML, CSS, JavaScript, PHP, Python
 * Frameworks : Symfony, CodeIgniter
 * Bases de données : MySQL, PostgreSQL
 * Outils de développement : Git, GitHub, Docker, GitLab, Intellij, VSCode, Eclipse
 
-**Soft Skills:**
+# Soft Skills
 
 * Communication
 * Collaboration
@@ -64,8 +64,7 @@ Enedis Rouen ( 2023 - 2024 )
 * Rigueur
 * Curiosité
 
-
-**Me Contacter:**
+# Me Contacter
 
 Concernant la page "Me Contacter" de ce projet WEB : 
 Afin de pouvoir l'utiliser aucune modification n'est nécessaire dans le code.
