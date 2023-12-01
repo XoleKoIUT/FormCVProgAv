@@ -4,9 +4,9 @@
 
 **Email:** alexandre.michel@etu.univ-lehavre.fr
 
-**LinkedIn:** [[Votre profil LinkedIn]](https://www.linkedin.com/in/alexandre-michel-858759292/)
+**LinkedIn:** [[Mon profil LinkedIn]](https://www.linkedin.com/in/alexandre-michel-858759292/)
 
-**Github:** [[Votre profil GitHub]](https://github.com/XoleKoIUT/)
+**Github:** [[Mon profil GitHub]](https://github.com/XoleKoIUT/)
 
 **Description:**
 
