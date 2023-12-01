@@ -4,7 +4,7 @@ Pour lancer le projet, vous devez suivre les étapes suivantes :
 
 1. Clonez le référentiel Git.
 2. Lancez le serveur avec CodeIgniter : la commande `php spark serve`.
-3. Lancez le serveur avec Apache : Lancer votre serveur Xampp ou Wampp sur votre ordinateur et placer le projet dans le répertoire "www"
+3. Lancez le serveur avec Apache : Lancer votre serveur Xampp ou Wampp sur votre ordinateur et placer le projet dans le répertoire (si vous utilisez Xampp ) "www"
 4. Lancez l'URL : [[URL d'accès au projet]](http://localhost:8080/index.php/Home)
 
 # À propos de moi
