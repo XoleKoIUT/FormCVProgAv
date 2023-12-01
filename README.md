@@ -1,67 +1,64 @@
-# CodeIgniter 4 Application Starter
+# À propos de moi
 
-## What is CodeIgniter?
+**Nom:** MICHEL Alexandre
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+**Email:** alexandre.michel@etu.univ-lehavre.fr
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+**LinkedIn:** [[Votre profil LinkedIn]](https://www.linkedin.com/in/alexandre-michel-858759292/)
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+**Github:** [[Votre profil GitHub]](https://github.com/XoleKoIUT/)
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+**Description:**
 
-## Installation & updates
+Etudiant en 3ème Année de BUT Informatique situé au Havre ainsi qu'Alternant chez Enedis à Rouen, je suis un développeur principalement Web s'intéressant à la création de nouvelles choses.
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+Passionné par l'électronique ainsi que le sport j'aime réparer ainsi que me donner à fond dans ce que je fais.
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+**Centres d'intérêts:**
 
-## Setup
+* Technologie
+  - Montage de A - Z d'un ordinateur
+  - Réparation de Manettes / Téléphone / Ordinateurs
+* Sport
+  - Badminton
+  - VTT
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+**Parcours**
 
-## Important Change with index.php
+Lycée Ferdinand Buisson situé à Elbeuf ( 2018 - 2021 )
+  - Diplômé d'un BAC Mention Bien STI2D Option SIN
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+Institut Universitaire de Technologie situé au Havre ( 2021 - 2024 )
+ - BUT Informatique ( actuellement en 3ème et dernière années )
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+**Expérience professionnelle:**
 
-**Please** read the user guide for a better explanation of how CI4 works!
+Enedis Rouen ( 2023 - 2024 )
+ - Alternant depuis Septembre 2023 à Enedis en tant que développeur Web
+ - Présent dans l'entreprise depuis Avril 2023 ( 2 mois de stage puis 2 mois d'intérim puis Alterance )
 
-## Repository Management
+ - Développement d'outils WEB pour le bureau des études afin de faciliter leurs travails
+     - Bilan Social NAT Enedis
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+**Hard Skills:**
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+* Langages de programmation : HTML, CSS, JavaScript, PHP, Python
+* Frameworks : Symfony, CodeIgniter
+* Bases de données : MySQL, PostgreSQL
+* Outils de développement : Git, GitHub, Docker, GitLab, Intellij, VSCode, Eclipse
 
-## Server Requirements
+**Soft Skills:**
 
-PHP version 7.4 or higher is required, with the following extensions installed:
+* Communication
+* Collaboration
+* Autonomie
+* Rigueur
+* Curiosité
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
 
-> **Warning**
-> The end of life date for PHP 7.4 was November 28, 2022. If you are
-> still using PHP 7.4, you should upgrade immediately. The end of life date
-> for PHP 8.0 will be November 26, 2023.
+**Me Contacter:**
 
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+Concernant la page "Me Contacter" de ce projet WEB : 
+Afin de pouvoir l'utiliser aucune modification n'est nécessaire dans le code.
+Il suffit d'écrire dans la section "Destinataire" l'email à laquelle vous souhaitez que le message soit envoyé
+Vous avez la possibilité de modifier 
