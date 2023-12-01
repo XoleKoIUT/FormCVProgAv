@@ -1,4 +1,4 @@
-#**Comment lancer le projet**
+# **Comment lancer le projet**
 
 Pour lancer le projet, vous devez suivre les étapes suivantes :
 
