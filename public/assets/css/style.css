@@ -40,3 +40,40 @@ html, body{
     border-radius: 5px;
     z-index: 1;
 }
+
+.soft-skills-container {
+    margin-top: 50px;
+}
+.soft-skills-box {
+    position: relative;
+    background-color: #6c757d;
+    padding: 30px;
+    border-radius: 15px;
+}
+.arrow-down {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent transparent transparent #6c757d;
+}
+
+.parcours-container {
+    margin-top: 50px;
+}
+.parcours-image {
+    width: 100%;
+    height: auto;
+}
+.parcours-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
