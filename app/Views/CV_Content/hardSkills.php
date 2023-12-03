@@ -7,8 +7,8 @@
             </ul>
             <div class="collapse" id="slideConcep1">
                 <div class="ml-md-5 mt-3">
-                    <li>UML</li>
-                    <li>Classe</li>
+                    <p> Diagramme UML </p>
+                    <p> Diagramme des classes </p>
                 </div>
             </div>
             <!-- ---------------------------- -->
@@ -24,21 +24,25 @@
                         <li class="list-group-item clickable-list"> Java </li>
                     </ul>
                     <div class="collapse ml-md-5 mt-3" id="slideLang2">
-                        <p> PROJET EN 1ERE ANNEE 2EME ANNEE ALTERNANCE ETC</p>
+                        <p> Les Aventuriers du Rail </p>
+                        <p> Projet des Cuves </p>
+                        <p> Projet personnel : Différents jeux, 2048, Jeu en 2D </p>
                     </div>
 
                     <ul class="list-group pt-4" data-toggle="collapse" data-target="#slideLang3" aria-expanded="true" aria-controls="slidePanel">
                         <li class="list-group-item clickable-list"> PhP </li>
                     </ul>
                     <div class="collapse ml-md-5 mt-3" id="slideLang3">
-                        <p> PROJET EN 1ERE ANNEE 2EME ANNEE ALTERNANCE ETC</p>
+                        <p> Projet "Infolio", Gestionnaire de Portfolio</p>
+                        <p> Projet d'entreprise : Bilan Social NAT</p>
                     </div>
 
                     <ul class="list-group pt-4" data-toggle="collapse" data-target="#slideLang4" aria-expanded="true" aria-controls="slidePanel">
-                        <li class="list-group-item clickable-list"> HTML </li>
+                        <li class="list-group-item clickable-list"> Frameworks </li>
                     </ul>
                     <div class="collapse ml-md-5 mt-3" id="slideLang4">
-                        <p> PROJET EN 1ERE ANNEE 2EME ANNEE ALTERNANCE ETC</p>
+                        <p> CodeIgniter 4 : Ce projet </p>
+                        <p> Symfony : Utilisation en entreprise </p>
                     </div>
 
                 </div>
@@ -51,9 +55,9 @@
             </ul>
             <div class="collapse" id="slideDev">
                 <div class="ml-md-5 mt-3">
-                    <li>Anglais B1/B2</li>
-                    <li>Espagnol A2</li>
-                    <li>Français ( Langue Natale )</li>
+                    <p>Anglais B1/B2</p>
+                    <p>Espagnol A2</p>
+                    <p>Français ( Langue Natale )</p>
                 </div>
             </div>
             <!-- --------------------------- -->
